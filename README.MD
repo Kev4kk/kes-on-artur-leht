@@ -24,6 +24,12 @@ Võiks olla mingi carousel nendes (pole kindel kas puhtalt css-iga saab teha, js
 
 form, millega bookida/saata meil teile
 
+## disain
+
+Värvid: must, punane, valge
+
+
+
 ## tiimiliikmed
 
 * Kevin Akkermann (@Kev4kk) - team lead
@@ -31,4 +37,5 @@ form, millega bookida/saata meil teile
 * Milena Petrova 
 
 * Maria Ojassaar 
+
 
