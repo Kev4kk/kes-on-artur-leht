@@ -9,6 +9,8 @@ A: Veebileht tutvustab bändi "Kes on Artur?". Selle eesmärk on anda huvilistel
 
 ## Sisuideed
 
+Plaan: <https://docs.google.com/document/d/1idNmlv6YUJBfHymxRF51BP-Bllqz7L4ivCq3JkuEQ4Q/edit?usp=sharing>
+
 ### Pealeht
 
 catchphrase + nt viimane/järgmine esinemine (vajaks serverit)
