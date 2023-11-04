@@ -39,6 +39,6 @@ Figma: <https://www.figma.com/file/RoT9iHZPHfW5WnlCVIBKFy/Kes-on-Artur%3F-veebil
 
 * Milena Petrova (@milandrovna)
 
-* Maria Ojassaar 
+* Maria Ojassaar (@ojassaar)
 
 
