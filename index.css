@@ -7,11 +7,20 @@ body, html{
     height: 100%;
     overflow: hidden;
 }
+@font-face {
+    font-family: Allan-regular;
+    src: url('Allan-Regular.ttf');
+}
+@font-face {
+    font-family: Allan-bold;
+    src: url('Allan-Bold.ttf');
+}
 .menu{
     background-color:#4F2B2B;
     color: #4F2B2B;
-    display: flex;
-    font-size: 18px;
+    display:flex;
+    font-family: Allan-regular;
+    font-size: 23px;
     justify-content:flex-start;
     align-items: center;
     padding: 17px 0;
@@ -19,19 +28,35 @@ body, html{
     width: 100%;
     z-index: 100%;
     
-
 }
 .menu a {
     color:white;
     text-decoration: none;
-    padding: 0 20px;
+    padding: 0 20px; 
+}
+.menu a.avaleht_link::after{
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 80px;
+    height: 2px;
+    color:red;
+}
+.menu a:active {
+    color:red;
+}
+.menu a:hover{
+    color:red;
 }
 
+.menu a.avaleht_link{
+    color:red;
+}
 .avaleht{
     position:relative;
     top: 50px;
-    width: 100%;
-   
+    width: 100%;  
 }
 
 .full-width-image{
@@ -47,25 +72,32 @@ body, html{
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.65);
     z-index:1;
 }
 .text{
     position:absolute;
     top: 25%;
-    left: 45%;
-    transform: translate(-25%, -45%);
+    left: 50%;
+    font-family: Allan-bold;
+    transform: translate(-55%, -55%);
     justify-content: center;
+    text-align: center;
     color:white;
-    font-size: 40px;
+    font-size: 45px;
     z-index: 2;
+}
+.kontakt_link{
+    margin-left: auto;
 }
 .sub_text{
     position: absolute;
-    top: 45%;
-    left: 45%;
-    transform: translate(-45%, -45%);
+    top: 58%;
+    left: 50%;
+    font-family: Allan-Regular;
+    transform: translate(-50%, -50%);
     justify-content: center;
+    text-align:center;
     color:white;
     font-size: 20px;
     z-index: 2;
