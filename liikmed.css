@@ -1,0 +1,56 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 200px;
+}
+
+.liige {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex
+}
+
+.pilt {
+    height: auto;
+    text-align:right;
+    flex:10%
+}
+
+.kirjeldus {
+    margin-left: 30px;
+    flex: 70%
+}
+
+.esimene {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+
+h1 {
+    text-align: center;
+}
+
+.vahe {
+    height: 10px;
+}
+
+.päis {
+    height:40px;
+    width: 100%;
+    font-size:25px;
+    background-color: gray;
+    text-decoration: underline;
+    text-decoration-color: red;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
