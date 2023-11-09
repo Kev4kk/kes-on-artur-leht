@@ -23,13 +23,16 @@ img {
 
 .kirjeldus {
     margin-left: 30px;
-    flex: 70%
+    flex: 70%;
+    padding-right: 20%
 }
 
 .esimene {
     margin-left: auto;
     margin-right: auto;
-    width: 50%
+    width: 50%;
+    margin-bottom:70px;
+    margin-top: 30px
 }
 
 h1 {
@@ -37,20 +40,37 @@ h1 {
 }
 
 .vahe {
-    height: 10px;
-}
-
-.päis {
-    height:40px;
-    width: 100%;
-    font-size:25px;
-    background-color: gray;
-    text-decoration: underline;
-    text-decoration-color: red;
-    
+    height: 30px;
 }
 
 a {
     color: white;
     text-decoration: none;
+}
+
+.menüü {
+    background-color: #444;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    
+}
+
+.menüülink, .mittelink {
+    width: max-content;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.mittelink {
+    color: red
+}
+
+.tühik {
+    width: 20px
+}
+
+.suurtühik {
+    width:60%
 }
