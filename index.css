@@ -30,33 +30,25 @@ body, html{
     
 }
 .menu a {
-    color:white;
+    color:#f4ebdb;
     text-decoration: none;
     padding: 0 20px; 
 }
-.menu a.avaleht_link::after{
-    content: "";
-    position: absolute;
-    bottom: -1px;
-    left: 0;
-    width: 80px;
-    height: 2px;
-    color:red;
-}
+
 .menu a:active {
-    color:red;
+    color:#A13D37;
 }
 .menu a:hover{
-    color:red;
+    color:#A13D37;
 }
 
 .menu a.avaleht_link{
-    color:red;
+    color:#A13D37;
 }
 .avaleht{
     position:relative;
     top: 50px;
-    width: 100%;  
+    width: 100%;
 }
 
 .full-width-image{
@@ -83,12 +75,15 @@ body, html{
     transform: translate(-55%, -55%);
     justify-content: center;
     text-align: center;
-    color:white;
+    color:#f4ebdb;
     font-size: 45px;
     z-index: 2;
+    animation-duration: 1.1s;
+    animation-name: slideintext;
 }
 .kontakt_link{
     margin-left: auto;
+
 }
 .sub_text{
     position: absolute;
@@ -98,7 +93,20 @@ body, html{
     transform: translate(-50%, -50%);
     justify-content: center;
     text-align:center;
-    color:white;
+    color:#f4ebdb;
     font-size: 20px;
     z-index: 2;
+    animation-duration: 1.5s;
+    animation-name: slideintext;
+
 }
+
+@keyframes slideintext{
+    from{
+        margin-left: -100%;
+    }
+    to{
+        margin-left: 0%;
+    }
+}
+
