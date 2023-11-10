@@ -19,15 +19,13 @@ body, html{
     background-color:#4F2B2B;
     color: #4F2B2B;
     display:flex;
+    flex-direction: row;
     font-family: Allan-regular;
     font-size: 23px;
-    justify-content:flex-start;
-    align-items: center;
-    padding: 17px 0;
+    justify-content: space-between;
+    padding: 10px 0 15.5px 0;
     position: fixed;
     width: 100%;
-    z-index: 100%;
-    
 }
 .menu a {
     color:#f4ebdb;
@@ -35,11 +33,32 @@ body, html{
     padding: 0 20px; 
 }
 
-.menu a:active {
+.menuLeft {
+    display: flex;
+    flex-direction: row;
+}
+
+.headerDiv a:active {
     color:#A13D37;
 }
-.menu a:hover{
+.headerDiv a:hover{
     color:#A13D37;
+}
+
+.headerDiv {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.headerJoon {
+    
+    height: 3px;
+    background-color: #A13D37;
+    margin-left: 17px;
+    margin-right: 17px;
 }
 
 .menu a.avaleht_link{
