@@ -42,35 +42,3 @@ h1 {
 .vahe {
     height: 30px;
 }
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-.menüü {
-    background-color: #444;
-    height: 30px;
-    display: flex;
-    flex-direction: row;
-    font-size: 25px;
-    
-}
-
-.menüülink, .mittelink {
-    width: max-content;
-    text-decoration: underline;
-    text-decoration-color: red;
-}
-
-.mittelink {
-    color: red
-}
-
-.tühik {
-    width: 20px
-}
-
-.suurtühik {
-    width:60%
-}
