@@ -1,11 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     color: white;
     background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
     width: 200px;
+}
+
+@font-face {
+    font-family: Allan-regular;
+    src: url('Allan-Regular.ttf');
+}
+@font-face {
+    font-family: Allan-bold;
+    src: url('Allan-Bold.ttf');
 }
 
 .liige {
@@ -33,9 +47,72 @@ img {
     margin-right: auto;
     width: 50%;
     margin-bottom:70px;
-    margin-top: 30px
+    margin-top: 30px;
 }
 
 h1 {
     text-align: center;
+    font-family: Allan-bold;
+    font-size: 35px;
+}
+
+p {
+    font-family: Allan-regular;
+    font-size: 22px;
+    margin-bottom: 25px
+}
+
+.nimi {
+    font-weight: bold;
+}
+
+.menu{
+    background-color:#1a0707;
+    display:flex;
+    flex-direction: row;
+    font-family: Allan-regular;
+    font-size: 23px;
+    justify-content: space-between;
+    padding: 10px 0 15.5px 0;
+    position: fixed;
+    width: 100%;
+}
+.menu a {
+    color:#f4ebdb;
+    text-decoration: none;
+    padding: 0 20px; 
+}
+
+.menuLeft {
+    display: flex;
+    flex-direction: row;
+}
+
+.headerDiv a:active {
+    color:#A13D37;
+}
+.headerDiv a:hover{
+    color:#A13D37;
+}
+
+.headerDiv {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.headerJoon {
+    height: 3px;
+    background-color: #A13D37;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+.menu a.avaleht_link{
+    color:#A13D37;
+}
+
+.vahe {
+    height: 80px
 }
