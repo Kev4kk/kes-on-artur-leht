@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+
+@font-face {
+    font-family: Allan-regular;
+    src: url('Allan-Regular.ttf');
+}
+
+@font-face {
+    font-family: Allan-bold;
+    src: url('Allan-Bold.ttf');
+}
+
+h1 {
+    text-align: center;
+    font-family: Allan-bold;
+    font-size: 35px;
+}
+
+p {
+    font-family: Allan-regular;
+    font-size: 22px;
+    margin-bottom: 25px
+}
+
+.vahe {
+    height: 80px
+}
+
+.content {
+    margin-top: 5rem;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iframeContent {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    display: block;
+}
+
+.center {
+    display: flex;
+    flex-direction: row;
+}
+
+.leftBtn {
+    margin-right: 2rem;
+    width: 2rem;
+}
+
+.rightBtn {
+    margin-left: 2rem;
+    width: 2rem;
+}
