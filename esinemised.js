@@ -29,7 +29,7 @@ leftButton.addEventListener("click", () => {
     renderEsinemine(cur);
 })
 rightButton.addEventListener("click", () => {
-    cur = (N + cur - 1) % N; // selleks et 0 muutuks N-1-ks
+    cur = (cur + 1) % N; // selleks et 0 muutuks N-1-ks
     console.log(cur);
     renderEsinemine(cur);
 })
