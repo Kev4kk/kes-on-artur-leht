@@ -19,7 +19,8 @@ body{
     src: url('Allan-Bold.ttf');
 }
 .menu{
-    background-color:rgb(29, 28, 28);
+    background: color #4f2b2b;;
+    color: #4f2b2b;
     display:flex;
     flex-direction: row;
     font-family: Allan-regular;
@@ -28,7 +29,8 @@ body{
     padding: 10px 0 15.5px 0;
     position: fixed;
     width: 100%;
-    z-index: 2;
+    z-index: 100%;
+    
 }
 
 .menu a {
