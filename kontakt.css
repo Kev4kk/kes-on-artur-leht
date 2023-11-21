@@ -8,7 +8,7 @@ body, html{
     overflow: hidden;
 }
 body{
-    background-color:#311212;
+    background-color:black;
 }
 @font-face {
     font-family: Allan-regular;
@@ -19,45 +19,185 @@ body{
     src: url('Allan-Bold.ttf');
 }
 .menu{
-    background-color:#4F2B2B;
-    color: #4F2B2B;
+    background-color:rgb(29, 28, 28);
     display:flex;
+    flex-direction: row;
     font-family: Allan-regular;
     font-size: 23px;
-    justify-content:flex-start;
-    align-items: center;
-    padding: 17px 0;
+    justify-content: space-between;
+    padding: 10px 0 15.5px 0;
     position: fixed;
     width: 100%;
-    z-index: 100%;
-    
+    z-index: 2;
 }
+
 .menu a {
-    color:#f4ebdb;
+    color:#f0f0ef;
     text-decoration: none;
     padding: 0 20px; 
 }
-
-.menu a:active {
-    color:#A13D37;
+.menuLeft {
+    display: flex;
+    flex-direction: row;
 }
-.menu a:hover{
-    color:#A13D37;
+.headerDiv a:active {
+    color:#c8170e;
+}
+.headerDiv a:hover{
+    color:#c8170e;
+}
+
+.headerDiv {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.headerJoon {
+    height: 3px;
+    background-color: #c8170e;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+.headerDiv a:active {
+    color:#c8170e;
+}
+.headerDiv a:hover{
+    color:#c8170e;
+}
+
+.headerDiv {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.headerJoon {
+    height: 3px;
+    background-color: #c8170e;
+    margin-left: 17px;
+    margin-right: 17px;
 }
 
 .menu a.kontakt_link{
     margin-left: auto;
-    color: #A13D37;
+    color: #c8170e;
 }
 .text{
-    position:absolute;
-    top: 25%;
-    left: 50%;
+    position:absolute ;
+    top: 23%;
+    left: 55%;
     font-family: Allan-bold;
-    transform: translate(-55%, -55%);
-    justify-content: center;
-    text-align: center;
-    color:#f4ebdb;
+    color:#f0f0ef;
     font-size: 45px;
-    z-index: 2;
+    z-index: 1;
+    animation-duration: 1s;
+    animation-name: slide-left_text;
 }
+.kontakt_pilt{
+    position:fixed;
+    top:0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+.alamtext{
+    font-family: Allan-regular;
+    font-size: 23px;
+    z-index: 1; 
+    
+}
+#esimene{
+    position: absolute;
+    left: 55%;
+    top: 45%;
+    color: white;
+}
+#teine{
+    position: absolute;
+    left: 58.3%;
+    top: 53.2%;
+    color: #c8170e;
+}
+#kolmas{
+    position: absolute;
+    left: 55%;
+    top: 61.4%;
+    color: white;
+}
+#neljas{
+    position: absolute;
+    left: 58.3%;
+    top: 69.6%;
+    color: #c8170e;
+}
+#viies{
+    position: absolute;
+    left: 58.3%;
+    top: 77.8%;
+    color: #c8170e;
+}
+#icon_mail{
+    position:absolute;
+    top:53.6%;
+    left: 55%;
+    width: 2.7%;
+    height: 4.5%;
+}
+#icon_facebook{
+    position:absolute;
+    top:69.5%;
+    left: 55.1%;
+    width: 2.5%;
+    height: 4.5%;
+}
+#icon_insta{
+    position:absolute;
+    top:77.5%;
+    left: 54.9%;
+    width: 2.7%;
+    height:5%;
+}
+.alamtext a {
+    color: inherit;
+    text-decoration: none; 
+    animation-duration: 1s;
+    animation-name: slide-left_text;
+}
+.alamtext p{
+    animation-duration: 1s;
+    animation-name: slide-left_text;
+}
+.alamtext img {
+    animation-duration: 1s;
+    animation-name: slidein_icons;
+}
+.alamtext a:hover {
+    text-decoration: underline;
+}
+@keyframes slidein_icons{
+    from{
+        margin-left: 100%;
+        overflow: hidden;
+    }
+    to{
+        margin-left: 0%;
+    }
+}
+@keyframes slide-left_text {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
