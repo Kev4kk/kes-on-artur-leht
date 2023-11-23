@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+
+img {
+    width: 200px;
+}
+
+@font-face {
+    font-family: Allan-regular;
+    src: url('Allan-Regular.ttf');
+}
+@font-face {
+    font-family: Allan-bold;
+    src: url('Allan-Bold.ttf');
+}
+
+.liige {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    margin-bottom: 20px;
+}
+
+.pilt {
+    height: auto;
+    text-align:right;
+    flex:10%
+}
+
+.kirjeldus {
+    margin-left: 30px;
+    flex: 70%;
+    padding-right: 20%;
+}
+
+.esimene {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom:70px;
+    margin-top: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Allan-bold;
+    font-size: 35px;
+}
+
+p {
+    font-family: Allan-regular;
+    font-size: 22px;
+    margin-bottom: 25px
+}
+
+.nimi {
+    font-weight: bold;
+}
+
+.vahe {
+    height: 80px
+}
