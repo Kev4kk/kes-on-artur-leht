@@ -1,7 +1,8 @@
 // tulevikus teha see REST API kaudu fetchitavaks
 let esinemisteJSON = [
-    {type: "iframe", src: "https://www.youtube.com/embed/RKgw1H5jQJY?start=1370", subtitle: "Esinesime Hugo Treffneri Gümnassiumi õpetajate päeval. Lisaks Kertule ja Annale oli ka Lilian Hindrikson klaveril ja x trummidel."},
-    {type: "video", src: "img/karlova.mp4", subtitle: "Karlova"},   
+    {type: "iframe", src: "https://www.youtube.com/embed/RKgw1H5jQJY?start=1370", subtitle: "Esinesime Hugo Treffneri Gümnassiumi õpetajate päeval 6.10.2023. Lisaks Kertule ja Annale oli ka Lilian Hindrikson klaveril ja Robert Kirk trummidel."},
+    {type: "video", src: "img/karlova.mp4", subtitle: "Karlova päevad, 20.5.2023"},   
+    
 ];
 let w = 560;
 let h = 315;
@@ -14,7 +15,7 @@ function renderEsinemine(i) {
         content.innerHTML = `<iframe width="${w}" height="${h}" src="${curEsinemine.src}" frameborder="0" allowfullscreen></iframe>`
     } else if (curEsinemine.type == "video") {
         content.innerHTML = `<video width="${w}" height="${h}" controls><source src="${curEsinemine.src}" type="video/mp4"></source></video>`
-    }
+    } 
     subtitle.innerText = curEsinemine.subtitle;
 }
 
