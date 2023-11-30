@@ -8,6 +8,7 @@
     padding: 10px 0 15.5px 0;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 .menu a {
     color:#f4ebdb;
@@ -40,6 +41,4 @@
     margin-left: 17px;
     margin-right: 17px;
 }
-.menu a.avaleht_link{
-    color:#A13D37;
-}
+

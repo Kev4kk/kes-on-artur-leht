@@ -15,54 +15,9 @@ body, html{
     font-family: Allan-bold;
     src: url('Allan-Bold.ttf');
 }
-.menu{
-    background-color:rgb(29, 28, 28);
-    display:flex;
-    flex-direction: row;
-    font-family: Allan-regular;
-    font-size: 23px;
-    justify-content: space-between;
-    padding: 10px 0 15.5px 0;
-    position: fixed;
-    width: 100%;
-}
-.menu a {
-    color:#f0f0ef;
-    text-decoration: none;
-    padding: 0 20px; 
-}
-
-.menuLeft {
-    display: flex;
-    flex-direction: row;
-}
-
-.headerDiv a:active {
-    color:#c8170e;
-}
-.headerDiv a:hover{
-    color:#c8170e;
-}
-
-.headerDiv {
-    width: fit-content;
-    display: flex;
-    flex-direction: column;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.headerJoon {
-    height: 3px;
-    background-color: #c8170e;
-    margin-left: 17px;
-    margin-right: 17px;
-}
-
 .menu a.avaleht_link{
-    color:#c8170e;
+    color:#A13D37;
 }
-
 .avaleht{
     position:relative;
     top: 50px;
