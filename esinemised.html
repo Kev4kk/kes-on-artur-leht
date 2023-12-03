@@ -6,9 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kes on Artur?</title>
     <link rel="stylesheet" href="esinemised.css">
+    <link rel="stylesheet" href="header.css">
 </head>
 
 <body>
+    <div class="menu">
+        <div class="menuLeft">
+            <div class="headerDiv">
+                <a href="index.html">Avaleht</a>
+                <div class="headerJoon"></div>
+            </div>
+            <div class="headerDiv">
+                <a href="liikmed.html">Liikmed</a>
+                <div class="headerJoon"></div>
+            </div>
+            <div class="headerDiv">
+                <a href="esinemised.html" class="avaleht_link">Esinemised</a>
+                <div class="headerJoon"></div>
+            </div>
+        </div>
+        <div class="menuRight">
+            <div class="headerDiv kontaktidDiv">
+                <a href="kontakt.html" class="kontakt_link">Kontaktid</a>
+                <div class="headerJoon"></div>
+            </div>
+        </div>
+    </div>
+    <div class="vahe"></div>
+
+    <h1>Kus on Artur (olnud)?</h1>
+    <div class="content">
+        <div class="center">
+            <button id="leftBtn" class="leftBtn"><strong><</strong></button>
+                <div class="iframeContent" id="content">
+                    <video width="560" height="315" controls><source src="img/manguilu.mp4" type="video/mp4"></source></video>
+                </div>
+                <button id="rightBtn" class="rightBtn"><strong>></strong></button>
+        </div>
+        <p class="contentText" id="subtitle">Esimest korda esines ansambel Kes on Artur? konkursil "Mängu Ilu", mis toimus Koolijazz 2023 raames Viljandi Pärimusmuusika Aidas.<br>3.1.2023.<br>Laul: "Vienna" - Billy Joel</p>
+    </div>
+    <script src="esinemised.js"></script>
 </body>
 
 </html>
