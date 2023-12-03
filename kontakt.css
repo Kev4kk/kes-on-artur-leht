@@ -19,10 +19,17 @@ body{
     src: url('Allan-Bold.ttf');
 }
 
+.kontakt {
+    display: flex;
+    flex-direction: row;
+}
+
+.parem {
+    padding-top: 12rem;
+    padding-left: 5rem;
+}
+
 .text{
-    position:absolute ;
-    top: 23%;
-    left: 55%;
     font-family: Allan-bold;
     color:#f0f0ef;
     font-size: 45px;
@@ -31,83 +38,43 @@ body{
     animation-name: slide-left_text;
 }
 .kontakt_pilt{
-    position:fixed;
     top:0;
     left: 0;
     width: 50%;
-    height: 100%;
-    object-fit: cover;
+    height: 100vh;
+    object-fit: cover; 
+    object-position: right; 
+    display: block; 
+    
 }
 .alamtext{
+    margin: 2rem 0;
     font-family: Allan-regular;
     font-size: 23px;
     z-index: 1; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     
 }
+
+.alamtext.first {
+    margin-top: 4rem;
+}
+
 .menu a.kontakt_link{
-    color:#A13D37;
+    color:#c8170e;
 }
-#esimene{
-    position: absolute;
-    left: 55%;
-    top: 45%;
-    color: white;
-}
-#teine{
-    position: absolute;
-    left: 58.3%;
-    top: 53.2%;
-    color: #A13D37;
-}
-#kolmas{
-    position: absolute;
-    left: 55%;
-    top: 61.4%;
-    color: white;
-}
-#neljas{
-    position: absolute;
-    left: 58.3%;
-    top: 69.6%;
-    color: #A13D37;
-}
-#viies{
-    position: absolute;
-    left: 58.3%;
-    top: 77.8%;
-    color: #A13D37;
-}
-#icon_mail{
-    position:absolute;
-    top:53.6%;
-    left: 55%;
-    width: 2.7%;
-    height: 4.5%;
-    object-fit: contain;
-}
-#icon_facebook{
-    position:absolute;
-    top:69.5%;
-    left: 55.1%;
-    width: 2.5%;
-    height: 4.5%;
-    object-fit: contain;
-}
-#icon_insta{
-    position:absolute;
-    top:77.5%;
-    left: 54.9%;
-    width: 2.7%;
-    height:5%;
-    object-fit: contain;
-}
+
 .alamtext a {
-    color: inherit;
+    margin-left: 1rem;
+    color: red;
     text-decoration: none; 
     animation-duration: 1s;
     animation-name: slide-left_text;
 }
 .alamtext p{
+    color: white;
     animation-duration: 1s;
     animation-name: slide-left_text;
 }
@@ -138,3 +105,18 @@ body{
       width: 100%;
     }
   }
+
+.icon_mail {
+    height: 50px;
+    aspect-ratio: "1:1";
+}
+
+.icon_facebook {
+    height: 50px;
+    aspect-ratio: "1:1";
+}
+
+.icon_insta {
+    height: 50px;
+    aspect-ratio: "1:1";
+}
