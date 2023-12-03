@@ -57,11 +57,29 @@ p {
 }
 
 .leftBtn {
+    all: unset;
+    font-size: x-large;
     margin-right: 2rem;
     width: 2rem;
+    cursor: pointer;
+}
+
+.leftBtn:hover {
+    color: #A13D37;
 }
 
 .rightBtn {
+    all: unset;
+    font-size: x-large;
+    cursor: pointer;
     margin-left: 2rem;
     width: 2rem;
+}
+
+.rightBtn:hover {
+    color: #A13D37;
+}
+
+.contentText {
+    text-align: center;
 }
