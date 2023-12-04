@@ -8,7 +8,9 @@ body {
     color: white;
     background-color: black;
 }
-
+.menu a.esinemised_link{
+    color:#A13D37;
+}
 @font-face {
     font-family: Allan-regular;
     src: url('Allan-Regular.ttf');
