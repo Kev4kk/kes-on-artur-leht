@@ -8,7 +8,9 @@ body {
     color: white;
     background-color: black;
 }
-
+.menu a.liikmed_link{
+    color:#A13D37;
+}
 img {
     width: 200px;
 }
@@ -64,6 +66,8 @@ p {
 
 .nimi {
     font-weight: bold;
+    color:#A13D37;
+    font-size: 27px;
 }
 
 .vahe {
