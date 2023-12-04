@@ -68,7 +68,7 @@ body{
 
 .alamtext a {
     margin-left: 1rem;
-    color: red;
+    color: #A13D37;
     text-decoration: none; 
     animation-duration: 1s;
     animation-name: slide-left_text;
