@@ -18,76 +18,7 @@ body{
     font-family: Allan-bold;
     src: url('Allan-Bold.ttf');
 }
-.menu{
-    background-color:rgb(29, 28, 28);
-    display:flex;
-    flex-direction: row;
-    font-family: Allan-regular;
-    font-size: 23px;
-    justify-content: space-between;
-    padding: 10px 0 15.5px 0;
-    position: fixed;
-    width: 100%;
-    z-index: 2;
-}
 
-.menu a {
-    color:#f0f0ef;
-    text-decoration: none;
-    padding: 0 20px; 
-}
-.menuLeft {
-    display: flex;
-    flex-direction: row;
-}
-.headerDiv a:active {
-    color:#c8170e;
-}
-.headerDiv a:hover{
-    color:#c8170e;
-}
-
-.headerDiv {
-    width: fit-content;
-    display: flex;
-    flex-direction: column;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.headerJoon {
-    height: 3px;
-    background-color: #c8170e;
-    margin-left: 17px;
-    margin-right: 17px;
-}
-
-.headerDiv a:active {
-    color:#c8170e;
-}
-.headerDiv a:hover{
-    color:#c8170e;
-}
-
-.headerDiv {
-    width: fit-content;
-    display: flex;
-    flex-direction: column;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.headerJoon {
-    height: 3px;
-    background-color: #c8170e;
-    margin-left: 17px;
-    margin-right: 17px;
-}
-
-.menu a.kontakt_link{
-    margin-left: auto;
-    color: #c8170e;
-}
 .text{
     position:absolute ;
     top: 23%;
@@ -113,6 +44,9 @@ body{
     z-index: 1; 
     
 }
+.menu a.kontakt_link{
+    color:#A13D37;
+}
 #esimene{
     position: absolute;
     left: 55%;
@@ -123,7 +57,7 @@ body{
     position: absolute;
     left: 58.3%;
     top: 53.2%;
-    color: #c8170e;
+    color: #A13D37;
 }
 #kolmas{
     position: absolute;
@@ -135,13 +69,13 @@ body{
     position: absolute;
     left: 58.3%;
     top: 69.6%;
-    color: #c8170e;
+    color: #A13D37;
 }
 #viies{
     position: absolute;
     left: 58.3%;
     top: 77.8%;
-    color: #c8170e;
+    color: #A13D37;
 }
 #icon_mail{
     position:absolute;
@@ -149,6 +83,7 @@ body{
     left: 55%;
     width: 2.7%;
     height: 4.5%;
+    object-fit: contain;
 }
 #icon_facebook{
     position:absolute;
@@ -156,6 +91,7 @@ body{
     left: 55.1%;
     width: 2.5%;
     height: 4.5%;
+    object-fit: contain;
 }
 #icon_insta{
     position:absolute;
@@ -163,6 +99,7 @@ body{
     left: 54.9%;
     width: 2.7%;
     height:5%;
+    object-fit: contain;
 }
 .alamtext a {
     color: inherit;
